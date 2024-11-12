@@ -22,6 +22,7 @@ add_executable(${PROJECT_NAME}
     calc.cc
     driver.cc 
     ${CMAKE_BINARY_DIR}/parser.cpp
+    ${CMAKE_BINARY_DIR}/scanner.cpp
     ${BISON_Parser_OUTPUTS}
 )
 
